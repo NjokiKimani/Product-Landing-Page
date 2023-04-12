@@ -60,8 +60,6 @@ display: grid;
     padding-right: 0;
 
 }
-.tan{
-}
 .mustard{
     border: 1px solid #E19B22;
     background-color:#E19B22;
@@ -99,6 +97,7 @@ margin-left: 5px;
 .info h3{
     font-size: 25px;
         opacity: 0.7;
+        margin-bottom: 0;
 
 }
 .info h4{
