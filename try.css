@@ -1,0 +1,49 @@
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+
+}
+.noise{
+    background:#e7ded4;
+            background-image: url(images/noise.png);
+}
+.section{
+display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.bikeSection{
+    border: 1px solid black;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.tan{
+    border: 1px solid black;
+}
+.mustard{
+    border: 1px solid #E19B22;
+    background-color:#E19B22;
+    border-radius: 4px;
+}
+
+img{
+    width: 600px;
+    height: auto;
+    position: relative;
+    top: -600px;
+    transform: rotateY(180deg);
+left:75px;
+}
+
+
+@media (max-width:800px) {
+
+    img{
+        width: 300px;
+    }
+    
+}

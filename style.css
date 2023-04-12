@@ -1,0 +1,67 @@
+body{
+     background:#e7ded4;
+            background-image: url(images/noise.png);
+            font-family: 'Martel Sans', sans-serif;
+}
+
+.section{
+display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 100vh;
+}
+
+
+.bikeSection{
+    padding: 0px 0 0 30px;
+    display: grid;
+        grid-template-columns: 1fr 2fr;
+    padding-right: 0;
+
+}
+.tan{
+}
+.mustard{
+    border: 1px solid #E19B22;
+    background-color:#E19B22;
+    border-radius: 4px;
+}
+.mustard h1{
+font-size: 120px;
+color: white;
+position: relative;
+text-align: right;
+top: -90px;
+letter-spacing: 10px;
+left: 22px;
+}
+.info h1{
+    font-size: 120px;
+position: relative;
+top: -90px;
+
+
+
+}
+
+img{
+    width: 800px;
+    height: auto;
+    position: relative;
+    top: -650px;
+    transform: rotateY(180deg);
+left:138px;}
+
+
+
+@media (max-width:800px){
+
+    .mustard h1{
+        left:22px;
+    }
+    img{
+        width: 450px;
+            position: relative;
+    left:100px;
+            top: -550px;
+    }
+}
