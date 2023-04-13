@@ -47,3 +47,49 @@ left:75px;
     }
     
 }
+
+
+    img{
+        width: 450px;
+            position: relative;
+    left:100px;
+            top: -550px;
+    }
+
+
+margin-right: 0;
+
+
+    .mustard h1{
+    border: 1px solid green;
+font-size: 120px;
+color: #e7ded4;
+position: relative;
+text-align: right;
+top: -90px;
+letter-spacing: 10px;
+left: 22px;
+}
+
+
+
+.info h1{
+box-sizing: border-box;
+width: auto;
+border: 1px solid purple;
+width: auto;
+font-size: 120px;
+position: relative;
+top: -90px;
+
+}
+.info h2{
+    
+    font-size: 50px;
+    font-weight: 800;
+    position: relative;
+    top:-250px;
+    padding: 10px;
+    margin-left: 120px;
+    opacity: 0.8;
+}
